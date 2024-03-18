@@ -17,7 +17,7 @@ function semaforo_verde(){
 
 function semaforo_automatico(){
   let i = 0;
-  let cores = ["./imagens/vermelho.png" , "./imagens/amarelo.png" ,"./imagens/verde.png"];
+  let cores = ["./imagens/verde.png" , "./imagens/amarelo.png" ,"./imagens/vermelho.png"];
   setInterval(function(){
     semaforo.src = cores[i];
     if(i == 2){
